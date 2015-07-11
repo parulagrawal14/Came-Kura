@@ -1,0 +1,11 @@
+package org.eclipse.kura.example.camel;
+
+public class MyKuraRouter extends KuraRouter {
+	 
+	  @Override
+	  public void configure() throws Exception {
+	    from("timer:trigger").
+	      to("netty-http:http://app.mydatacenter.com/api");
+	  }
+	 
+	}

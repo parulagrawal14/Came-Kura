@@ -1,0 +1,9 @@
+source.. = src/
+output.. = bin/
+bin.includes = META-INF/,\
+               .
+additional.bundles = slf4j.api,\
+                     org.apache.camel.camel-core,\
+                     org.apache.camel.camel-core-osgi,\
+                     org.apache.camel.camel-kura,\
+                     org.eclipse.osgi.services

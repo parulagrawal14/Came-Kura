@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Osgi example
+Bundle-SymbolicName: org.eclipse.kura.example.camel_osgi
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: slf4j.api;bundle-version="1.6.4",
+ org.apache.camel.camel-core-osgi;bundle-version="2.15.2"
+

@@ -1,0 +1,15 @@
+package org.eclipse.kura.example.camel;
+
+import org.apache.camel.component.kura.KuraRouter;
+
+
+public class KuraOsgi extends KuraRouter {
+	 
+	  @Override
+	  public void configure() throws Exception {
+		  log.info("Configuring Camel routes!");
+	   // from("timer:trigger").
+	    //  to("netty-http:http://app.mydatacenter.com/api");
+	  }
+	 
+	}

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/home/telsites/MavenKura/kura/target-platform/p2-repo-common/target/repository - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1435468829237'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='27'>
+    <artifact classifier='osgi.bundle' id='org.json' version='1.0.0.v201011060100'>
+      <properties size='3'>
+        <property name='artifact.size' value='56700'/>
+        <property name='download.size' value='56700'/>
+        <property name='download.md5' value='e7a0ce6d6d020e45cc6f59d874b08ca6'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.fileupload' version='1.2.2.v20111214-1400'>
+      <properties size='3'>
+        <property name='artifact.size' value='66992'/>
+        <property name='download.size' value='66992'/>
+        <property name='download.md5' value='f7a92ee326c91be7d08c3a7b8b6446bf'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='slf4j.api' version='1.6.4'>
+      <properties size='3'>
+        <property name='artifact.size' value='25962'/>
+        <property name='download.size' value='25962'/>
+        <property name='download.md5' value='75e1a2a3b84c59bf9d4f42de57a533b1'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='leshan-core' version='0.1.11.M4'>
+      <properties size='3'>
+        <property name='artifact.size' value='108684'/>
+        <property name='download.size' value='108684'/>
+        <property name='download.md5' value='1595b0c963bdf74688bb83e60b84652c'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.leshan.client-core' version='0.1.11.M5-SNAPSHOT'>
+      <properties size='3'>
+        <property name='artifact.size' value='27925'/>
+        <property name='download.size' value='27925'/>
+        <property name='download.md5' value='f9d21df22989648581bf424ccb6d65fc'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.gwt.user' version='0.2.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='11420998'/>
+        <property name='download.size' value='11420998'/>
+        <property name='download.md5' value='fb61ac0cb67735c763cdd58863729f99'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.usb.common' version='1.0.2'>
+      <properties size='3'>
+        <property name='artifact.size' value='140704'/>
+        <property name='download.size' value='140704'/>
+        <property name='download.md5' value='a9101aa031ca9926373d18445030b344'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.codeminders.hidapi' version='1.1.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='145913'/>
+        <property name='download.size' value='145913'/>
+        <property name='download.md5' value='6e7f0b3300248cd0740e03a25a6445e5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.hsqldb.hsqldb' version='2.3.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='1466946'/>
+        <property name='download.size' value='1466946'/>
+        <property name='download.md5' value='c168667de846cafe5bf2a4d268f4665d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.hamcrest.core' version='1.1.0.v20090501071000'>
+      <properties size='3'>
+        <property name='artifact.size' value='27827'/>
+        <property name='download.size' value='27827'/>
+        <property name='download.md5' value='44736076c639e41b1451f8ad71dd512a'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.tigris.mtoolkit.iagent.rpc' version='3.0.0.20110411-0918'>
+      <properties size='3'>
+        <property name='artifact.size' value='197947'/>
+        <property name='download.size' value='197947'/>
+        <property name='download.md5' value='4a5cc1807253acb7ae7809864e846763'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='jdk.dio' version='1.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='576198'/>
+        <property name='download.size' value='576198'/>
+        <property name='download.md5' value='8b1682943a62a7d95bc014476bc98abb'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.leshan.client-cf' version='0.1.11.M5-SNAPSHOT'>
+      <properties size='3'>
+        <property name='artifact.size' value='26178'/>
+        <property name='download.size' value='26178'/>
+        <property name='download.md5' value='a442b5b115391312bd22fb853a1f88c9'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.usb.api' version='1.0.2'>
+      <properties size='3'>
+        <property name='artifact.size' value='40243'/>
+        <property name='download.size' value='40243'/>
+        <property name='download.md5' value='1604df340609f46edd035a3614e303f3'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='slf4j.log4j12' version='1.6.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='9750'/>
+        <property name='download.size' value='9750'/>
+        <property name='download.md5' value='81c6b6a571f691c50e9306d365c3f706'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='californium-osgi' version='1.0.0.M3'>
+      <properties size='3'>
+        <property name='artifact.size' value='256999'/>
+        <property name='download.size' value='256999'/>
+        <property name='download.md5' value='e9bdfe12df80a8cb8d0ec5d01ac8774d'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='scandium' version='1.0.0.M3'>
+      <properties size='3'>
+        <property name='artifact.size' value='185657'/>
+        <property name='download.size' value='185657'/>
+        <property name='download.md5' value='dd967d2f8f70dcb154fa3d4dd0f427ec'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.junit' version='4.10.0.v4_10_0_v20120426-0900'>
+      <properties size='3'>
+        <property name='artifact.size' value='216871'/>
+        <property name='download.size' value='216871'/>
+        <property name='download.md5' value='52f946a83640b62413d47ee9656551c2'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.soda.dk.comm' version='1.2.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='144080'/>
+        <property name='download.size' value='144080'/>
+        <property name='download.md5' value='14fb53bb2542b5736c85a80d4a1ff508'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='javax.usb.linux' version='1.0.3'>
+      <properties size='3'>
+        <property name='artifact.size' value='222027'/>
+        <property name='download.size' value='222027'/>
+        <property name='download.md5' value='c1349706c90d7cd8f052cb3df472cd8f'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.net' version='3.1.0.v201205071737'>
+      <properties size='3'>
+        <property name='artifact.size' value='292505'/>
+        <property name='download.size' value='292505'/>
+        <property name='download.md5' value='85e2ec90cb1b04497c7825f95fa1c1e8'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.gson' version='2.3.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='206853'/>
+        <property name='download.size' value='206853'/>
+        <property name='download.md5' value='6da6d8d4f1554196599bcb76896b3393'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.eclipse.paho.client.mqttv3' version='1.0.1'>
+      <properties size='3'>
+        <property name='artifact.size' value='171448'/>
+        <property name='download.size' value='171448'/>
+        <property name='download.md5' value='81ad7161dffe6e339f983b9c124b4fb5'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='log4j' version='1.2.17'>
+      <properties size='3'>
+        <property name='artifact.size' value='489884'/>
+        <property name='download.size' value='489884'/>
+        <property name='download.md5' value='04a41f0a068986f0f73485cf507c0f40'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='log4j.apache-log4j-extras' version='1.1.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='346744'/>
+        <property name='download.size' value='346744'/>
+        <property name='download.md5' value='2ca71cfab66acdb29a205dcd63139b96'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.apache.commons.io' version='2.4.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='185140'/>
+        <property name='download.size' value='185140'/>
+        <property name='download.md5' value='7f97854dc04c119d461fed14f5d8bb96'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='com.google.protobuf' version='2.6.0'>
+      <properties size='3'>
+        <property name='artifact.size' value='596435'/>
+        <property name='download.size' value='596435'/>
+        <property name='download.md5' value='afeba6a0d697cdfd8db8636bd75fc0ee'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

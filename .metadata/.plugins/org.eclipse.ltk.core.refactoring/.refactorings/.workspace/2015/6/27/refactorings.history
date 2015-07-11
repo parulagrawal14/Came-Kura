@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 6 resources" deleteContents="false" description="Delete 6 resources" element1="/org.eclipse.kura.api" element2="/org.eclipse.kura.demo.heater" element3="/org.eclipse.kura.emulator" element4="/org.eclipse.kura.example.hello_osgi" element5="/org.eclipse.kura.lwm2m" element6="/target-definition" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="6" stamp="1435553108487"/>
+</session>
