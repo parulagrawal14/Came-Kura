@@ -1,15 +1,15 @@
 #Deployment Plugin Project File
-#Fri Jul 03 13:30:07 IST 2015
+#Wed Jul 29 17:43:16 IST 2015
 build.ant.name=<.>/resources/dp/camel_osgi_build.xml
 build.dp.file=<.>/resources/dp/camel_osgi.dp
 build.location=
-bundles.0.bundle_path=/home/telsites/camel/plugins/org.eclipse.kura.example.camel_osgi_1.0.0.201506291149.jar
+bundles.0.bundle_path=/home/telsites/camel/plugins/org.eclipse.kura.example.camel_osgi_1.0.0.201507291740.jar
 bundles.0.customizer=false
 bundles.0.headers.count=0
 bundles.0.missing=false
-bundles.0.name=bundles/org.eclipse.kura.example.camel_osgi_1.0.0.201506291149.jar
+bundles.0.name=bundles/org.eclipse.kura.example.camel_osgi_1.0.0.201507291740.jar
 bundles.0.symbolic_name=org.eclipse.kura.example.camel_osgi
-bundles.0.version=1.0.0.201506291149
+bundles.0.version=1.0.0.201507291740
 bundles.count=1
 certificates.count=0
 general.signbundles=false
